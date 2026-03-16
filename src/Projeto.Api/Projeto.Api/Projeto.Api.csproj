@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Não geramos classes Program e Startup automaticamente para manter o projeto simples -->
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Projeto.Application\Projeto.Application.csproj" />
+  </ItemGroup>
+</Project>
